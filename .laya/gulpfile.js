@@ -90,7 +90,9 @@ if (watchify) {
             entries: ['src/Main.ts'],
             cache: {},
             packageCache: {},
-        }).plugin(tsify)
+        }).plugin(tsify, {
+            module: 'commonjs'
+        })
     );
 
     // 记录watchify编译ts的时候是否出错，出错则不刷新浏览器

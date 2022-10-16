@@ -39,13 +39,13 @@ import Scene=Laya.Scene;]]>   </codeImportsTS>
    <picType>0   </picType>
    <atlasType>1   </atlasType>
    <atlasScale/>
-   <debugMode>false   </debugMode>
+   <debugMode>true   </debugMode>
    <copyRes>true   </copyRes>
    <dataCompact>true   </dataCompact>
    <isRemoteProject>false   </isRemoteProject>
    <idePath/>
    <ver>2.0   </ver>
-   <stat>false   </stat>
+   <stat>true   </stat>
    <physicsDebug>true   </physicsDebug>
    <toJsonScene>true   </toJsonScene>
    <compressTexture>false   </compressTexture>
